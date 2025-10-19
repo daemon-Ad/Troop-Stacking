@@ -1,0 +1,25 @@
+troop-optimizer/
+│
+├── backend/
+│   ├── main.py              # FastAPI entry point
+│   ├── requirements.txt     # FastAPI dependencies
+│   ├── core/
+│   │   ├── logic.py         # your existing functions (masking_with_start_fill etc.)
+│   │   ├── utils.py
+│   │   └── data_loader.py   # JSON read logic
+│   └── troops_data.json     # existing data file
+│
+├── frontend/
+│   ├── package.json
+│   ├── vite.config.js       # or CRA config
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── InputPanel.jsx
+│   │   │   ├── ResultsTable.jsx
+│   │   │   └── SummaryPanel.jsx
+│   │   └── api/
+│   │       └── api.js       # Axios calls to backend
+│
+└── README.md
+

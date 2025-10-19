@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove default number input arrows (spinners) */
+
+/* Chrome, Safari, Edge, Opera*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Unified color theme */
+.theme-surface-light {
+  @apply bg-[#f5f7fa] text-[#1c1f1f];
+}
+.theme-surface-dark {
+  @apply bg-[#0c0d0d] text-[#f5f7fa];
+}
+.theme-card-light {
+  @apply bg-white border border-[#d1d5d5];
+}
+.theme-card-dark {
+  @apply bg-[#1a1c1c] border border-[#2d3030];
+}
+.btn-theme {
+  @apply bg-[#f5f7fa] text-[#1c1f1f] font-medium px-6 py-3 rounded-lg transition-colors;
+}
+.btn-theme:hover {
+  @apply bg-[#1c1f1f] text-white;
+}
+

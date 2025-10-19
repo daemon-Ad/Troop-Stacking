@@ -1,0 +1,758 @@
+[
+  {
+    "unit_type": "g1_melee",
+    "base_health": 150,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 50,
+    "leadership": 1,
+    "cost": 301
+  },
+  {
+    "unit_type": "g1_ranged",
+    "base_health": 150,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 50,
+    "leadership": 1,
+    "cost": 301
+  },
+  {
+    "unit_type": "g1_mounted",
+    "base_health": 300,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 100,
+    "leadership": 2,
+    "cost": 601
+  },
+  {
+    "unit_type": "g2_melee",
+    "base_health": 270,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 90,
+    "leadership": 1,
+    "cost": 501
+  },
+  {
+    "unit_type": "g2_ranged",
+    "base_health": 270,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 90,
+    "leadership": 1,
+    "cost": 501
+  },
+  {
+    "unit_type": "g2_mounted",
+    "base_health": 540,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 180,
+    "leadership": 2,
+    "cost": 1002
+  },
+  {
+    "unit_type": "g3_melee",
+    "base_health": 480,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 160,
+    "leadership": 1,
+    "cost": 701
+  },
+  {
+    "unit_type": "g3_ranged",
+    "base_health": 480,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 160,
+    "leadership": 1,
+    "cost": 701
+  },
+  {
+    "unit_type": "g3_mounted",
+    "base_health": 960,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 320,
+    "leadership": 2,
+    "cost": 1402
+  },
+  {
+    "unit_type": "g4_melee",
+    "base_health": 870,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 290,
+    "leadership": 1,
+    "cost": 901
+  },
+  {
+    "unit_type": "g4_ranged",
+    "base_health": 870,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 290,
+    "leadership": 1,
+    "cost": 901
+  },
+  {
+    "unit_type": "g4_mounted",
+    "base_health": 1740,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 580,
+    "leadership": 2,
+    "cost": 1802
+  },
+  {
+    "unit_type": "g5_melee",
+    "base_health": 1560,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 520,
+    "leadership": 1,
+    "cost": 1101
+  },
+  {
+    "unit_type": "g5_ranged",
+    "base_health": 1560,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 520,
+    "leadership": 1,
+    "cost": 1101
+  },
+  {
+    "unit_type": "g5_mounted",
+    "base_health": 3150,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 1050,
+    "leadership": 2,
+    "cost": 2202
+  },
+  {
+    "unit_type": "g5_flying",
+    "base_health": 30000,
+    "food_consumption": 100,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 10000,
+    "leadership": 20,
+    "cost": 22020
+  },
+  {
+    "unit_type": "g6_melee",
+    "base_health": 2820,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 940,
+    "leadership": 1,
+    "cost": 1301
+  },
+  {
+    "unit_type": "g6_ranged",
+    "base_health": 2820,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 940,
+    "leadership": 1,
+    "cost": 1301
+  },
+  {
+    "unit_type": "g6_mounted",
+    "base_health": 5700,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 1900,
+    "leadership": 2,
+    "cost": 2602
+  },
+  {
+    "unit_type": "g6_flying",
+    "base_health": 57000,
+    "food_consumption": 100,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 19000,
+    "leadership": 20,
+    "cost": 26020
+  },
+  {
+    "unit_type": "g7_melee",
+    "base_health": 5100,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 1700,
+    "leadership": 1,
+    "cost": 1501
+  },
+  {
+    "unit_type": "g7_ranged",
+    "base_health": 5100,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 1700,
+    "leadership": 1,
+    "cost": 1501
+  },
+  {
+    "unit_type": "g7_mounted",
+    "base_health": 10200,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 3400,
+    "leadership": 2,
+    "cost": 3001
+  },
+  {
+    "unit_type": "g7_flying",
+    "base_health": 102000,
+    "food_consumption": 100,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 34000,
+    "leadership": 20,
+    "cost": 30010
+  },
+  {
+    "unit_type": "g8_melee",
+    "base_health": 9180,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 3060,
+    "leadership": 1,
+    "cost": 1701
+  },
+  {
+    "unit_type": "g8_ranged",
+    "base_health": 9180,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 3060,
+    "leadership": 1,
+    "cost": 1701
+  },
+  {
+    "unit_type": "g8_mounted",
+    "base_health": 18360,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 6120,
+    "leadership": 2,
+    "cost": 3402
+  },
+  {
+    "unit_type": "g8_flying",
+    "base_health": 183000,
+    "food_consumption": 100,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 61000,
+    "leadership": 20,
+    "cost": 34020
+  },
+  {
+    "unit_type": "g9_melee",
+    "base_health": 16530,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 5510,
+    "leadership": 1,
+    "cost": 1901
+  },
+  {
+    "unit_type": "g9_ranged",
+    "base_health": 16530,
+    "food_consumption": 5,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 5510,
+    "leadership": 1,
+    "cost": 1901
+  },
+  {
+    "unit_type": "g9_mounted",
+    "base_health": 33060,
+    "food_consumption": 10,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 11020,
+    "leadership": 2,
+    "cost": 3802
+  },
+  {
+    "unit_type": "g9_flying",
+    "base_health": 330600,
+    "food_consumption": 100,
+    "unit_type_1": "Guardsmen",
+    "base_strength": 110200,
+    "leadership": 20,
+    "cost": 38020
+  },
+  {
+    "unit_type": "s1_melee",
+    "base_health": 150,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 50,
+    "leadership": 1,
+    "cost": 301
+  },
+  {
+    "unit_type": "s2_melee",
+    "base_health": 270,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 90,
+    "leadership": 1,
+    "cost": 501
+  },
+  {
+    "unit_type": "s3_melee",
+    "base_health": 480,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 160,
+    "leadership": 1,
+    "cost": 701
+  },
+  {
+    "unit_type": "s4_melee",
+    "base_health": 870,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 290,
+    "leadership": 1,
+    "cost": 901
+  },
+  {
+    "unit_type": "s5_flying",
+    "base_health": 1560,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 520,
+    "leadership": 1,
+    "cost": 1101
+  },
+  {
+    "unit_type": "s5_melee",
+    "base_health": 1560,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 520,
+    "leadership": 1,
+    "cost": 1101
+  },
+  {
+    "unit_type": "s5_ranged",
+    "base_health": 1560,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 520,
+    "leadership": 1,
+    "cost": 1101
+  },
+  {
+    "unit_type": "s5_mounted",
+    "base_health": 3150,
+    "food_consumption": 10,
+    "unit_type_1": "Specialists",
+    "base_strength": 1050,
+    "leadership": 2,
+    "cost": 2202
+  },
+  {
+    "unit_type": "s6_flying",
+    "base_health": 2820,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 940,
+    "leadership": 1,
+    "cost": 1301
+  },
+  {
+    "unit_type": "s6_melee",
+    "base_health": 2820,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 940,
+    "leadership": 1,
+    "cost": 1301
+  },
+  {
+    "unit_type": "s6_ranged",
+    "base_health": 2820,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 940,
+    "leadership": 1,
+    "cost": 1301
+  },
+  {
+    "unit_type": "s6_mounted",
+    "base_health": 5700,
+    "food_consumption": 10,
+    "unit_type_1": "Specialists",
+    "base_strength": 1900,
+    "leadership": 2,
+    "cost": 2602
+  },
+  {
+    "unit_type": "s7_flying",
+    "base_health": 5100,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 1700,
+    "leadership": 1,
+    "cost": 1501
+  },
+  {
+    "unit_type": "s7_melee",
+    "base_health": 5100,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 1700,
+    "leadership": 1,
+    "cost": 1501
+  },
+  {
+    "unit_type": "s7_ranged",
+    "base_health": 5100,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 1700,
+    "leadership": 1,
+    "cost": 1501
+  },
+  {
+    "unit_type": "s7_mounted",
+    "base_health": 10200,
+    "food_consumption": 10,
+    "unit_type_1": "Specialists",
+    "base_strength": 3400,
+    "leadership": 2,
+    "cost": 3001
+  },
+  {
+    "unit_type": "s8_flying",
+    "base_health": 183600,
+    "food_consumption": 100,
+    "unit_type_1": "Specialists",
+    "base_strength": 61200,
+    "leadership": 20,
+    "cost": 34010
+  },
+  {
+    "unit_type": "s8_melee",
+    "base_health": 9180,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 3060,
+    "leadership": 1,
+    "cost": 1701
+  },
+  {
+    "unit_type": "s8_ranged",
+    "base_health": 9180,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 3060,
+    "leadership": 1,
+    "cost": 1701
+  },
+  {
+    "unit_type": "s8_mounted",
+    "base_health": 18360,
+    "food_consumption": 10,
+    "unit_type_1": "Specialists",
+    "base_strength": 6120,
+    "leadership": 2,
+    "cost": 3401
+  },
+  {
+    "unit_type": "s9_flying",
+    "base_health": 330600,
+    "food_consumption": 100,
+    "unit_type_1": "Specialists",
+    "base_strength": 110200,
+    "leadership": 20,
+    "cost": 38010
+  },
+  {
+    "unit_type": "s9_melee",
+    "base_health": 16530,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 5510,
+    "leadership": 1,
+    "cost": 1901
+  },
+  {
+    "unit_type": "s9_ranged",
+    "base_health": 16530,
+    "food_consumption": 5,
+    "unit_type_1": "Specialists",
+    "base_strength": 5510,
+    "leadership": 1,
+    "cost": 1901
+  },
+  {
+    "unit_type": "s9_mounted",
+    "base_health": 33060,
+    "food_consumption": 10,
+    "unit_type_1": "Specialists",
+    "base_strength": 11020,
+    "leadership": 2,
+    "cost": 3801
+  },
+  {
+    "unit_type": "m3_water_elemental",
+    "base_health": 5700,
+    "food_consumption": 60,
+    "unit_type_1": "Monster",
+    "base_strength": 1900,
+    "leadership": 3,
+    "cost": 0
+  },
+  {
+    "unit_type": "m3_battle_boar",
+    "base_health": 11700,
+    "food_consumption": 120,
+    "unit_type_1": "Monster",
+    "base_strength": 3900,
+    "leadership": 6,
+    "cost": 0
+  },
+  {
+    "unit_type": "m3_emerald_dragon",
+    "base_health": 13500,
+    "food_consumption": 140,
+    "unit_type_1": "Monster",
+    "base_strength": 4500,
+    "leadership": 7,
+    "cost": 0
+  },
+  {
+    "unit_type": "m3_stone_gargoyle",
+    "base_health": 15600,
+    "food_consumption": 160,
+    "unit_type_1": "Monster",
+    "base_strength": 5200,
+    "leadership": 8,
+    "cost": 0
+  },
+  {
+    "unit_type": "m4_gorgon_medusa",
+    "base_health": 36000,
+    "food_consumption": 200,
+    "unit_type_1": "Monster",
+    "base_strength": 12000,
+    "leadership": 10,
+    "cost": 0
+  },
+  {
+    "unit_type": "m4_many_armed_guardian",
+    "base_health": 39000,
+    "food_consumption": 220,
+    "unit_type_1": "Monster",
+    "base_strength": 13000,
+    "leadership": 11,
+    "cost": 0
+  },
+  {
+    "unit_type": "m4_magic_dragon",
+    "base_health": 45000,
+    "food_consumption": 260,
+    "unit_type_1": "Monster",
+    "base_strength": 15000,
+    "leadership": 13,
+    "cost": 0
+  },
+  {
+    "unit_type": "m4_ice_phoenix",
+    "base_health": 51000,
+    "food_consumption": 300,
+    "unit_type_1": "Monster",
+    "base_strength": 17000,
+    "leadership": 15,
+    "cost": 0
+  },
+  {
+    "unit_type": "m5_ettin",
+    "base_health": 144000,
+    "food_consumption": 460,
+    "unit_type_1": "Monster",
+    "base_strength": 48000,
+    "leadership": 23,
+    "cost": 0
+  },
+  {
+    "unit_type": "m5_flaming_cantaur",
+    "base_health": 132000,
+    "food_consumption": 420,
+    "unit_type_1": "Monster",
+    "base_strength": 44000,
+    "leadership": 21,
+    "cost": 0
+  },
+  {
+    "unit_type": "m5_desert_vanquisher",
+    "base_health": 126000,
+    "food_consumption": 400,
+    "unit_type_1": "Monster",
+    "base_strength": 42000,
+    "leadership": 20,
+    "cost": 0
+  },
+  {
+    "unit_type": "m5_fearsome_manticore",
+    "base_health": 138000,
+    "food_consumption": 440,
+    "unit_type_1": "Monster",
+    "base_strength": 46000,
+    "leadership": 22,
+    "cost": 0
+  },
+  {
+    "unit_type": "m6_jungle_destroyer",
+    "base_health": 390000,
+    "food_consumption": 680,
+    "unit_type_1": "Monster",
+    "base_strength": 130000,
+    "leadership": 35,
+    "cost": 0
+  },
+  {
+    "unit_type": "m6_ruby_golem",
+    "base_health": 390000,
+    "food_consumption": 700,
+    "unit_type_1": "Monster",
+    "base_strength": 130000,
+    "leadership": 34,
+    "cost": 0
+  },
+  {
+    "unit_type": "m6_crystal_dragon",
+    "base_health": 360000,
+    "food_consumption": 660,
+    "unit_type_1": "Monster",
+    "base_strength": 120000,
+    "leadership": 33,
+    "cost": 0
+  },
+  {
+    "unit_type": "m6_troll_rider",
+    "base_health": 330000,
+    "food_consumption": 600,
+    "unit_type_1": "Monster",
+    "base_strength": 110000,
+    "leadership": 30,
+    "cost": 0
+  },
+  {
+    "unit_type": "m7_ancient_terror",
+    "base_health": 840000,
+    "food_consumption": 820,
+    "unit_type_1": "Monster",
+    "base_strength": 280000,
+    "leadership": 41,
+    "cost": 0
+  },
+  {
+    "unit_type": "m7_destructive_colossus",
+    "base_health": 870000,
+    "food_consumption": 860,
+    "unit_type_1": "Monster",
+    "base_strength": 290000,
+    "leadership": 43,
+    "cost": 0
+  },
+  {
+    "unit_type": "m7_black_dragon",
+    "base_health": 900000,
+    "food_consumption": 880,
+    "unit_type_1": "Monster",
+    "base_strength": 300000,
+    "leadership": 44,
+    "cost": 0
+  },
+  {
+    "unit_type": "m7_wind_lord",
+    "base_health": 930000,
+    "food_consumption": 900,
+    "unit_type_1": "Monster",
+    "base_strength": 310000,
+    "leadership": 45,
+    "cost": 0
+  },
+  {
+    "unit_type": "m8_trickster_1",
+    "base_health": 1920000,
+    "food_consumption": 1040,
+    "unit_type_1": "Monster",
+    "base_strength": 640000,
+    "leadership": 52,
+    "cost": 0
+  },
+  {
+    "unit_type": "m8_kraken_1",
+    "base_health": 2010000,
+    "food_consumption": 1100,
+    "unit_type_1": "Monster",
+    "base_strength": 670000,
+    "leadership": 55,
+    "cost": 0
+  },
+  {
+    "unit_type": "m8_fire_phoenix_1",
+    "base_health": 1980000,
+    "food_consumption": 1080,
+    "unit_type_1": "Monster",
+    "base_strength": 660000,
+    "leadership": 54,
+    "cost": 0
+  },
+  {
+    "unit_type": "m8_devastator_1",
+    "base_health": 1950000,
+    "food_consumption": 1060,
+    "unit_type_1": "Monster",
+    "base_strength": 650000,
+    "leadership": 53,
+    "cost": 0
+  },
+  {
+    "unit_type": "m9_trickster_2",
+    "base_health": 3450000,
+    "food_consumption": 1040,
+    "unit_type_1": "Monster",
+    "base_strength": 1150000,
+    "leadership": 52,
+    "cost": 0
+  },
+  {
+    "unit_type": "m9_kraken_2",
+    "base_health": 3630000,
+    "food_consumption": 1100,
+    "unit_type_1": "Monster",
+    "base_strength": 1210000,
+    "leadership": 55,
+    "cost": 0
+  },
+  {
+    "unit_type": "m9_fire_phoenix_2",
+    "base_health": 3570000,
+    "food_consumption": 1080,
+    "unit_type_1": "Monster",
+    "base_strength": 1190000,
+    "leadership": 54,
+    "cost": 0
+  },
+  {
+    "unit_type": "m9_devastator_2",
+    "base_health": 3510000,
+    "food_consumption": 1060,
+    "unit_type_1": "Monster",
+    "base_strength": 1170000,
+    "leadership": 53,
+    "cost": 0
+  }
+]

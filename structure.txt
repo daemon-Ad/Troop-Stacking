@@ -1,0 +1,42 @@
+troop-optimizer/
+│
+├── backend/
+│   ├── main.py              
+│   ├── database.py
+│   ├── requirements.txt        
+│   ├── core/
+│       ├── logic.py         
+│       ├── utils.py
+│       ├── data_loader.py
+│       └── troops_data.json
+│
+├── frontend/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── vite.config.js       
+│   ├── node-modules/
+│   ├── src/
+│       ├── App.jsx
+│       ├── index.css
+│       ├── App.css
+│       ├── main.jsx
+│       ├── assets/
+│       ├── components/
+│       │   ├── InputPanel.jsx
+│       │   ├── AvailabilityPanel.jsx
+│       │   ├── HowToUse.jsx
+│       │   ├── Navbar.jsx
+│       │   ├── ContactForm.jsx
+│       │   ├── NumberInput.jsx
+│       │   ├── StepperInput.jsx
+│       │   ├── ResultsTable.jsx
+│       │   └── SummaryPanel.jsx
+│       └── api/
+│           └── api.js    
+│
+└── README.md
+
