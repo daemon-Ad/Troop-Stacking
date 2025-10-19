@@ -1,6 +1,8 @@
 import json
 from functools import lru_cache
-JSON_PATH = "troops_data.json"
+import os
+JSON_PATH = os.path.join(os.path.dirname(__file__), "troops_data.json")
+
 
 @lru_cache(maxsize=1)
 def load_from_json(path=JSON_PATH):
