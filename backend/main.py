@@ -44,12 +44,12 @@ class CalcRequest(BaseModel):
     revival_cost_reduction: float | None = 0
 
 
-@app.get("/")
+@app.get("/api")
 def root():
     return {"message": "Troop Optimizer API is running."}
 
 
-@app.post("/calculate")
+@app.post("/api/calculate")
 def calculate(req: CalcRequest):
     stacks = build_stack_list(
         req.g_tiers, req.s_tiers, req.m_tiers,
@@ -101,7 +101,7 @@ def calculate(req: CalcRequest):
     return result
 
 
-@app.get("/meta")
+@app.get("/api/meta")
 @lru_cache(maxsize=1)
 def meta():
     monsters = {}
@@ -154,7 +154,7 @@ def send_backup_email(data: dict):
 # -----------------------------
 # 📨 CONTACT ENDPOINT
 # -----------------------------
-@app.post("/contact")
+@app.post("/api/contact")
 def contact(
     kingdom: str = Form(...),
     x_coord: str = Form(...),
