@@ -29,6 +29,8 @@ frontend/.eslintcache
 Thumbs.db
 
 # ───────────── DEPLOYMENT / TEMP FILES ─────────────
+Dockerfile
 Dockerfile~
 *.tmp
+*.dockerignore
 
