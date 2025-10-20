@@ -1,11 +1,21 @@
 import axios from "axios";
 
-const API = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+// Generic axios instance
+const API = import.meta.env.VITE_API_URL;
+
+export const api = axios.create({
+  baseURL: `${API}/api`,
 });
 
-export const calculateTroops = async (payload) => {
-  const res = await API.post("/calculate", payload);
+export const calculate = async (payload) => {
+  const res = await api.post("/calculate", payload);
   return res.data;
 };
+
+export const getMeta = () => api.get("/meta");
+
+export const sendContact = (formData) =>
+  api.post("/contact", new URLSearchParams(formData), {
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  });
 
