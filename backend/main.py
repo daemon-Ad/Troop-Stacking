@@ -7,9 +7,6 @@ from core.data_loader import load_from_json
 from core.logic import masking_with_start_fill
 from core.utils import build_stack_list
 from functools import lru_cache
-from database import get_db
-from sqlalchemy import text
-from sqlalchemy.exc import OperationalError
 from email.mime.text import MIMEText
 from dotenv import load_dotenv
 import smtplib
@@ -163,8 +160,7 @@ def contact(
     y_coord: str = Form(...),
     player_name: str = Form(...),
     message: str = Form(...),
-    email: str = Form(None),
-    db=Depends(get_db)
+    email: str = Form(None)
 ):
     data = {
         "kingdom": kingdom,
@@ -175,23 +171,8 @@ def contact(
         "message": message
     }
 
-    try:
-        # Primary insert into Supabase Postgres
-        db.execute(
-            text("""
-                INSERT INTO contact_messages (kingdom, x_coord, y_coord, player_name, email, message)
-                VALUES (:kingdom, :x_coord, :y_coord, :player_name, :email, :message)
-            """),
-            data
-        )
-        db.commit()
-        print(f"💾 Message saved from {player_name} (K{kingdom})")
-        return {"status": "received", "saved_to": "supabase"}
-
-    except OperationalError as e:
-        print(f"⚠️ Supabase unreachable, sending fallback email. Error: {e}")
-        send_backup_email(data)
-        return {"status": "received", "saved_to": "email_backup"}
+    send_backup_email(data)
+    return {"status": "received", "saved_to": "email_backup"}
 
 
 frontend_path = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
