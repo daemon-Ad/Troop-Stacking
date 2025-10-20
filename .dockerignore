@@ -1,0 +1,46 @@
+# Node
+node-modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.vite/
+frontend/.env
+venv/
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/env/
+backend/venv/
+backend/.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files (don't copy local .env to Docker)
+.env
+.env.local
+*.env.local
+
+# Documentation
+README.md
+*.md
+LICENSE
+
+# Other
+*.log
