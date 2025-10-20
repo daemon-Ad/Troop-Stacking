@@ -1,5 +1,7 @@
 from fastapi import FastAPI, Form, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from core.data_loader import load_from_json
 from core.logic import masking_with_start_fill
@@ -190,4 +192,13 @@ def contact(
         print(f"⚠️ Supabase unreachable, sending fallback email. Error: {e}")
         send_backup_email(data)
         return {"status": "received", "saved_to": "email_backup"}
+
+
+frontend_path = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+app.mount("/", StaticFiles(directory=frontend_path, html=True), name="static")
+
+@app.get("/{full_path:path}")
+def serve_frontend(full_path: str):
+    index_file = os.path.join(frontend_path, "index.html")
+    return FileResponse(index_file)
 
