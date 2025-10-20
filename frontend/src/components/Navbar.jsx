@@ -29,7 +29,7 @@ export default function Navbar() {
               alt="Troop Optimizer Logo"
               className={`w-[64px] h-[64px] object-contain ${isDark ? "invert" : ""}`}
             />
-            <span>Total Death</span>
+            <span>Troop Calculator</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-6">
