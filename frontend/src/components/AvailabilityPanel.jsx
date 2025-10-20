@@ -23,7 +23,7 @@ export default function AvailabilityPanel({ config, onCalculate }) {
   // --- Fetch monster names ---
   useEffect(() => {
     axios
-      .get(`${import.meta.env.VITE_API_URL}/meta`)
+      .get(`${import.meta.env.VITE_API_URL}/api/meta`)
       .then((res) => setMonsterData(res.data.monsters || {}))
       .catch(() =>
         setMonsterData({

@@ -6,7 +6,7 @@ import InputPanel from "./components/InputPanel";
 import AvailabilityPanel from "./components/AvailabilityPanel";
 import SummaryPanel from "./components/SummaryPanel";
 import ResultsTable from "./components/ResultsTable";
-import { calculateTroops } from "./api/api";
+import { calculate } from "./api/api";
 import ContactForm from "./components/ContactForm";
 
 
@@ -23,7 +23,6 @@ function Home() {
       <p className={`text-lg md:text-xl mb-8 ${isDark ? "text-gray-300" : "text-gray-700"} max-w-2xl mx-auto`}>
         Optimize your army composition with precision. Use the calculator to plan, analyze, and dominate the battlefield.
       </p>
-      <a href="/calculator" className="btn-theme inline-block px-8 py-3">Get Started</a>
     </div>
   );
 }
@@ -60,7 +59,7 @@ function Calculator() {
 
   const handleConfigChange = (newConfig) => setConfig(newConfig);
   const handleCalculate = async (payload) => {
-    const data = await calculateTroops(payload);
+    const data = await calculate(payload);
     setResult(data);
   };
 

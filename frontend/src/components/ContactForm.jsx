@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useTheme } from "../App";
+import { sendContact} from "../api/api.js"
 
 export default function ContactForm() {
   const { isDark } = useTheme();
@@ -17,18 +18,14 @@ export default function ContactForm() {
     setStatus("Sending...");
 
     try {
-      const res = await axios.post(
-        "http://127.0.0.1:8000/contact",
-        new URLSearchParams({
-          email,
-          kingdom,
-          x_coord: xCoord,
-          y_coord: yCoord,
-          player_name: playerName,
-          message,
-        }),
-        { headers: { "Content-Type": "application/x-www-form-urlencoded" } }
-      );
+      const res = await sendContact({
+        email, 
+        kingdom, 
+        x_coord:xCoord,
+        y_coord:yCoord,
+        player_name:playerName,
+        message,
+      });
 
       if (res.data.status === "received") {
         setStatus("✅ Message sent successfully!");
