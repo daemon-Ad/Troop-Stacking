@@ -27,6 +27,7 @@ backend/.venv/
 # Git
 .git/
 .gitignore
+git-*
 
 # OS
 .DS_Store
