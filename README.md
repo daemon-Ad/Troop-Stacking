@@ -1,4 +1,5 @@
 # Troop Optimizer For Total Battle
+ **Live at :** [https://troop-stacking-allocator.onrender.com/](https://troop-stacking-allocator.onrender.com/)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -10,9 +11,7 @@
 
 ## What It Does
 
-**Troop Optimizer** is a strategic calculation tool designed to help you determine the most efficient troop composition for your military engagements. By analyzing your health bonuses and leadership capacity constraints, the application computes optimal unit distributions that maximize valor point generation while maintaining tactical superiority on the battlefield.
-
-The system transforms complex mathematical relationships between troop statistics, health modifiers, and capacity limitations into actionable strategic insights, enabling commanders to make data-driven decisions about force composition without manual calculation overhead.
+**Troop Optimizer** is a calculator for very precise death order. If you play the game, you know what it is. If you are new then you will know soon.
 
 ![Application Preview](./git-images/preview.png)
 
