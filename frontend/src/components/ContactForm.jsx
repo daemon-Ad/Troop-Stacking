@@ -53,7 +53,7 @@ export default function ContactForm() {
         (I will be glad if you fill out these details, email and coordinates. If you don't like giving your personal email, then at least put your game coords, Don't worry, I am not going to attack you, I am not that strong.)
       </p>
       <p className={`text-sm mb-6 italic ${isDark ? "text-gray-400" : "text-gray-600"}`}>
-        (If you are a developer nerd and want to do other things to make the game easier, then also you can contact me, we will build something nice!!)
+        (If you are a developer and want to do other things to make the game easier, then also you can contact me, we will build something nice!!)
       </p>
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Kingdom and Coordinates */}
