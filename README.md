@@ -9,23 +9,16 @@
 
 ---
 
-## What It Does
+### What It Does
 
 **Troop Optimizer** is a calculator for very precise death order. If you play the game, you know what it is. If you are new then you will know soon.
 
 ![Application Preview](./git-images/preview.png)
-
 ---
 
-## Features
+## For Devs
 
-The application delivers real-time troop optimization through an intuitive web interface, processing your health bonuses and leadership constraints to generate optimal unit distributions instantly. Sophisticated algorithms automatically layer troops based on health thresholds and combat effectiveness, ensuring efficient deployment of higher-tier units while maintaining tactical superiority.
-
-The system includes an import/export feature for saving custom configurations, seamless light/dark mode switching, and a step-based workflow that guides users through the optimization process while maintaining full transparency into calculations and allocation logic.
-
----
-
-## Project Structure
+### Project Structure
 
 ```
 troop-optimizer/
@@ -50,7 +43,7 @@ troop-optimizer/
 
 ---
 
-## Built With
+### Built With
 
 - **Python (FastAPI)** — High-performance asynchronous backend framework for rapid API development
 - **React + Vite** — Modern frontend stack combining component-based architecture with lightning-fast build tooling
@@ -59,7 +52,7 @@ troop-optimizer/
 
 ---
 
-## License
+### License
 
 This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
 
